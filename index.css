@@ -18,10 +18,10 @@ body {
 .header {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	margin-top: 56px;
-	margin-left: 120px;
-	margin-right: 120px;
+	/* margin-left: 120px; */
+	/* margin-right: 120px; */
 	gap: 115px;
 }
 
@@ -69,12 +69,15 @@ body {
 }
 
 .image-div {
-	margin-left: 118px;
-	height: 432px;
+	margin-top: 127px;
+	margin-left: 115px;
+	/* height: 432px; */
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	gap: 2px;
-
-	margin-top: 78px;
+	/* margin-top: 78px; */
+	/* border: 1px solid black;*/
 }
 
 .left-side-1 {
@@ -143,15 +146,15 @@ body {
 }
 
 .image-div-2 {
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 
 .clients {
 	/* border: 1px solid black; */
-	margin-left: 120px;
-	margin-right: 120px;
+	/* margin-left: 120px; */
+	/* margin-right: 120px; */
 	margin-top: 159px;
-	height: 57px;
+	/* height: 57px; */
 	gap: 49px;
 	display: flex;
 	justify-content: center;
